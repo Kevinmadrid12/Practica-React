@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Contador en React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto es una aplicación de contador simple desarrollada con **React** y estilizada con **Tailwind CSS**. Permite a los usuarios incrementar, decrementar y resetear el contador mediante botones interactivos. 
 
-## Available Scripts
+## Características
+- **Incrementar**: Aumenta el valor del contador en uno.
+- **Decrementar**: Reduce el valor del contador en uno.
+- **Resetear**: Restablece el contador a cero.
+- **Diseño responsivo**: Interfaz optimizada para todo tipo de dispositivos gracias a **Tailwind CSS**.
 
-In the project directory, you can run:
+## Tecnologías utilizadas
+- **React**: Librería para la creación de interfaces de usuario interactivas.
+- **Tailwind CSS**: Framework de diseño para una interfaz estilizada y moderna.
+- **JavaScript (ES6+)**: Para la lógica y funcionalidad del contador.
 
-### `npm start`
+## Instalación
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clona el repositorio:   "git clone (url del repositorio)"
+2. Navega a la carpeta del proyecto: cd (nombre de la carpeta)
+3. Instala las dependencias: "npm install" este comando instalara todas las dependecias necesarias
+4. Ejecuta la aplicación: "npm start"
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+ 
+### 2. Proyecto de **Vista Web** en **React** con **Tailwind CSS** (solo interfaz sin funcionalidad):
 
-### `npm test`
+# Vista Web en React con Tailwind CSS
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Este proyecto solo contiene la vista de una aplicación web desarrollada con **React** y estilizada utilizando **Tailwind CSS**. Es un diseño estático, lo que significa que no hay lógica de programación o interactividad, solo la representación visual de la interfaz.
 
-### `npm run build`
+## Características
+- **Diseño responsivo**: Optimizado para adaptarse a dispositivos móviles, tabletas y escritorios.
+- **Composición de UI**: Incluye una variedad de componentes de interfaz como botones, formularios y secciones, todos construidos con **Tailwind CSS** para una apariencia moderna y ajustable.
+- **Sin lógica**: Solo contiene la estructura visual, sin implementación de funciones o lógica de back-end.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Tecnologías utilizadas
+- **React**: Para estructurar la interfaz como componentes reutilizables.
+- **Tailwind CSS**: Para la creación de un diseño personalizable y responsive.
+- **JavaScript (ES6+)**: Para la base de React, aunque no hay lógica de negocio implementada.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contribución
+Si deseas contribuir, puedes hacer mejoras al diseño o agregar más componentes visuales. Siéntete libre de abrir un issue o enviar un pull request para discutir cambios o mejoras.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
